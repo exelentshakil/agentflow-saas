@@ -24,7 +24,7 @@ const FEATURES: FeatureItem[] = [
     id: 'services',
     icon: LayoutGrid,
     title: 'Professional services.',
-    description: 'Get tailored architectural guidance from senior systems engineers on Cloudflare Stream CDN, Replit backend stabilization, and Apple StoreKit 2 integration.',
+    description: 'Get tailored architectural guidance from senior systems engineers on Supabase pgvector RAG, n8n webhook orchestration, and autonomous tool-calling agents.',
     linkText: 'View services & workflow',
     action: 'pipeline',
   },
@@ -40,7 +40,7 @@ const FEATURES: FeatureItem[] = [
     id: 'retainers',
     icon: MessageSquare,
     title: 'Support & retainers.',
-    description: 'Receive ongoing operational monitoring, Inngest background event queues, automated workout generation failover, and strict 99.999% SLA response tracking.',
+    description: 'Receive ongoing operational monitoring, Inngest background event queues, automated OpenAI to Gemini failover, and human-in-the-loop audit logs.',
     linkText: 'View execution logs & SLA',
     action: 'logs',
   },
@@ -74,9 +74,9 @@ export function StripeFeatureGrid({
         {/* Two-Tone Section Headline with Stripe Opacity Balance */}
         <div className="max-w-3xl mb-10">
           <h2 className="text-2xl sm:text-3xl font-bold tracking-[-0.02em] text-[var(--color-text-primary)]">
-            Powering businesses of all sizes.{' '}
+            Powering SaaS platforms of all sizes.{' '}
             <span className="text-[var(--color-text-secondary)] opacity-75 font-normal">
-              Scale your mobile backend on a battle-tested architecture that adapts to your growth.
+              Scale your AI automation on a battle-tested architecture that adapts to your growth.
             </span>
           </h2>
         </div>

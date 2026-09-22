@@ -66,7 +66,7 @@ export default function HomePage() {
   };
 
   useEffect(() => {
-    const sectionIds = ['cockpit', 'pipeline', 'records'];
+    const sectionIds = ['cockpit', 'pipeline', 'workflows', 'records'];
     const observer = new IntersectionObserver(
       (entries) => {
         if (isNavigatingRef.current) return;
